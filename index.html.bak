@@ -17,11 +17,8 @@
 	$(document).ready(function(){
     $("iframe").hide();
      
-    $("#hide").click(function(){
-        $("iframe").hide(500);
-    });
-    $("#show").click(function(){
-        $("iframe").show(500);
+    $("#fuzzy").click(function(){
+        $("iframe").toggle(500);
     });
 	});
 	</script>
@@ -108,10 +105,9 @@
             </div>
         </header>
 		
-		<iframe width="100%" height="667px" frameborder="0" src="http://tanvpntest.gq/"></iframe>
+		<iframe width="100%" height="667px" frameborder="0" scrolling="no" src="http://tanvpntest.gq/"></iframe>
 		<div class="flex-container">
-		<button class="button button1" id="hide">Ẩn SpeedTest</button>
-		<button class="button button1" id="show">Hiện Speedtest</button>
+		<button class="button button1" id="fuzzy">Ẩn/Hiện SpeedTest</button>
 		</div>
         <!-- Section-->
         <section class="py-5">
