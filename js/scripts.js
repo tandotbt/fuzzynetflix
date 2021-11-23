@@ -5,3 +5,6 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+$(selector).hide(speed,callback);
+$(selector).show(speed,callback);

@@ -12,7 +12,19 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    $("iframe").hide();
+     
+    $("#hide").click(function(){
+        $("iframe").hide(500);
+    });
+    $("#show").click(function(){
+        $("iframe").show(500);
+    });
+	});
+	</script>
 	<style>
 	div.cardtanshadow {
 	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -59,7 +71,11 @@
                 </div>
             </div>
         </header>
+		
 		<iframe width="100%" height="650px" frameborder="0" src="http://tanvpn.speedtestcustom.com"></iframe>
+		<button id="hide">Ẩn SpeedTest</button>
+		<button id="show">Hiện Speedtest</button>
+		
         <!-- Section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
