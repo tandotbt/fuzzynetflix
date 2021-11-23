@@ -29,6 +29,42 @@
 	div.cardtanshadow {
 	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
+	.button {
+	background-color: #58257b;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 4px;
+	}
+
+	.button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #212529;
+	}
+
+	.button1:hover {
+	background-color: #212529;
+	color: white;
+	}
+	.flex-container {
+	margin-top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+	}
 	</style>
 
     </head>
@@ -73,9 +109,10 @@
         </header>
 		
 		<iframe width="100%" height="650px" frameborder="0" src="http://tanvpn.speedtestcustom.com"></iframe>
-		<button id="hide">Ẩn</button>
-		<button id="show">Hiện</button>
-		
+		<div class="flex-container">
+		<button class="button button1" id="hide">Ẩn SpeedTest</button>
+		<button class="button button1" id="show">Hiện Speedtest</button>
+		</div>
         <!-- Section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
