@@ -16,9 +16,17 @@
 	<script>
 	$(document).ready(function(){
       $("#fuzzy").click(function(){
-        $("iframe").toggle(500);
+        $("#speedtest").toggle(500);
     });
 	});
+$("#netflix1").hide();
+$("#hide1").click(function(){
+	$("#netflix1").hide();
+});
+
+$("#show1").click(function(){
+	$("#netflix1").show();
+});
 	</script>
 	<style>
 	div.cardtanshadow {
@@ -65,12 +73,45 @@
 		<a class="btn btn-outline-dark mt-auto" id="fuzzy" href="#" >Ẩn/Hiện SpeedTest</a>
 		</div>
 		<div style="z-index:1; top: 30rem; -webkit-writing-mode: vertical-lr;position: absolute !important;">
-		<iframe width="100%" height="600px" frameborder="0" scrolling="no" src="https://tanvpn.speedtestcustom.com"></iframe></div>
+		<div id="speedtest"><iframe width="100%" height="600px" frameborder="0" scrolling="no" src="https://tanvpn.speedtestcustom.com"></iframe></div></div>
 		</div>
         <!-- Section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+ <!--START2-->
+			<div class="col mb-5">
+<div class="cardtanshadow"> <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">30 Ngày</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\netflix.jpg" alt="Netflix" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Cập nhật: 22/11/2021</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-half"></div>
+                                        <div class="bi-star"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    4 người
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center" id ="show1"><a class="btn btn-outline-dark mt-auto">Húp</a></div>
+								<div class="text-center" id ="hide1"><a class="btn btn-outline-dark mt-auto">Húp</a></div>
+	                     </div>
+</div>                        </div>
+                    </div>
+					<div id="netflix1"><iframe id="1" width="100%" height="620px" frameborder="0" scrolling="no" src="file:///D:/OneDrive%20-%20dotbt/T%C3%A0i%20li%E1%BB%87u/GitHub/fuzzynetflix/file/1day.html"></iframe></div>
+<!--END2-->
  <!--START1-->
 			<div class="col mb-5">
 <div class="cardtanshadow"> <div class="card h-100">
