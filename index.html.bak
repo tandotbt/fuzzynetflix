@@ -15,9 +15,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script>
 	$(document).ready(function(){
-    $("iframe").fuzzy();
-     
-    $("#fuzzy").click(function(){
+      $("#fuzzy").click(function(){
         $("iframe").toggle(500);
     });
 	});
@@ -105,7 +103,7 @@
             </div>
         </header>
 		
-		<iframe width="100%" height="667px" frameborder="0" scrolling="no" src="http://tanvpntest.gq/"></iframe>
+		<iframe width="100%" height="667px" frameborder="0" scrolling="no" src="https://tanvpn.speedtestcustom.com"></iframe>
 		<div class="flex-container">
 		<button class="button button1" id="fuzzy">Ẩn/Hiện SpeedTest</button>
 		</div>
