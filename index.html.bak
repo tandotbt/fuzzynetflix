@@ -75,8 +75,11 @@
 		<div id="speedtest"><iframe width="100%" height="600px" frameborder="0" scrolling="no" src="https://tanvpn.speedtestcustom.com"></iframe></div></div>
 		</div>
         <!-- Section-->
+
 		<div id="cookie1" style="z-index: 1;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;text-align: center;"><iframe width="300" height="300px" frameborder="0" scrolling="no" src="https://tanvpntest.cf/file/1day.html"></iframe></div>
-        <section class="py-5">
+		<div id="cookie2" style="z-index: 1;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;text-align: center;"><iframe width="300" height="300px" frameborder="0" scrolling="no" src="https://tanvpntest.cf/file/1day.html"></iframe></div>
+ 
+ <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
  <!--START2-->
@@ -105,7 +108,38 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center" id ="hup1"><a class="btn btn-outline-dark mt-auto">Húp</a></div>
+                                <div class="text-center" id ="hup2" style="z-index: 3;"><a class="btn btn-outline-dark mt-auto">Húp</a></div>
+	                     </div>
+</div>                        </div>
+                    </div>
+<!--END3-->
+ <!--START2-->
+			<div class="col mb-5">
+<div class="cardtanshadow"> <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">30 Ngày</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\netflix.jpg" alt="Netflix" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Cập nhật: 22/11/2021</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-half"></div>
+                                        <div class="bi-star"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    4 người
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center" id ="hup1" style="z-index: 3;"><a class="btn btn-outline-dark mt-auto">Húp</a></div>
 	                     </div>
 </div>                        </div>
                     </div>
