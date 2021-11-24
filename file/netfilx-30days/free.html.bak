@@ -33,6 +33,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+	background-color: #ffdb3b;
 	}
 		div.card {
 	  border: 5px solid purple;
