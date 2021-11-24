@@ -14,11 +14,13 @@
         <link href="css/styles.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script>
+	$("#speedtest").hide();
 	$(document).ready(function(){
       $("#fuzzy").click(function(){
         $("#speedtest").toggle(500);
     });
 	});
+	$("#cookie1").hide();
 	$(document).ready(function(){
       $("#hup1").click(function(){
         $("#cookie1").toggle(500);
@@ -66,13 +68,14 @@
                 </div>
             </div>
         </header>
-		<div class="flex-container"><div style="z-index:2;padding-top:5px">
+		<div style="z-index: 2;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;text-align: center;"><div style="z-index:2;padding-top:5px">
 		<a class="btn btn-outline-dark mt-auto" id="fuzzy" href="#" >Ẩn/Hiện SpeedTest</a>
 		</div>
-		<div style="z-index:1; top: 30rem; -webkit-writing-mode: vertical-lr;position: absolute !important;">
+		<div style="z-index: 2;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;text-align: center;">
 		<div id="speedtest"><iframe width="100%" height="600px" frameborder="0" scrolling="no" src="https://tanvpn.speedtestcustom.com"></iframe></div></div>
 		</div>
         <!-- Section-->
+		<div id="cookie1" style="z-index: 1;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;text-align: center;"><iframe width="300" height="300px" frameborder="0" scrolling="no" src="https://tanvpntest.cf/file/1day.html"></iframe></div>
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -106,7 +109,6 @@
 	                     </div>
 </div>                        </div>
                     </div>
-					<div id="cookie1"><iframe id="1" width="399" height="399px" frameborder="0" scrolling="no" src="https://tanvpntest.cf/file/1day.html"></iframe></div>
 <!--END2-->
  <!--START1-->
 			<div class="col mb-5">
