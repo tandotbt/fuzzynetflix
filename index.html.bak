@@ -26,6 +26,12 @@
         $("#cookie1").toggle(500);
     });
 	});
+	$("#cookie2").hide();
+	$(document).ready(function(){
+      $("#hup2").click(function(){
+        $("#cookie2").toggle(500);
+    });
+	});
 	</script>
 	<style>
 	div.cardtanshadow {
